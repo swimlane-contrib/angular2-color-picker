@@ -9,3 +9,5 @@ create-dist.bat
 *.js
 *.js.map
 *.css.map
+.idea/
+examples/node_modules/*

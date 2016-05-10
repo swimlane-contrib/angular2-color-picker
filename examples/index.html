@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>                
+        <title>Angular 2 Color Picker (Demo Page)</title>
+        <base href="/">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+
+        <script src="/node_modules/es6-shim/es6-shim.min.js"></script>
+
+        <script src="/node_modules/zone.js/dist/zone.js"></script>
+        <script src="/node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="/node_modules/systemjs/dist/system.src.js"></script>
+
+        <style>
+            .col-md-5 > input{
+                margin-bottom: 10px;
+                width: 182px;
+            }
+            #changeme{
+                font-size:30px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+        </style>
+        <script src="/systemjs.config.js"></script>
+        <script>
+            System.import('app').catch(function(err){ console.error(err);  });
+        </script>
+    </head>
+
+    <body>
+    <my-app>Loading...</my-app>
+</body>
+
+</html>

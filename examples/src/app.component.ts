@@ -1,9 +1,9 @@
-import {Component} from 'angular2/core';
-import {ColorPickerDirective} from './color-picker/color-picker.directive'
+import {Component} from '@angular/core';
+import {ColorPickerDirective} from 'ct-angular2-color-picker/component'
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'app/demo.html',
+    templateUrl: '/src/app.component.html',
     directives: [ColorPickerDirective]
 })
 

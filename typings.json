@@ -1,6 +1,17 @@
 {
+    "dependencies": {
+        "xhr2": "github:gdi2290/typed-xhr2#69f2b8d40d0cd407c1b2a2f2f41fecc6852cabbb"
+    },
+    "devDependencies": {},
     "ambientDependencies": {
-        "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654",
-        "jasmine": "registry:dt/jasmine#2.2.0+20160412134438"
+        "async": "github:DefinitelyTyped/DefinitelyTyped/async/async.d.ts#5c3e47967affa3c4128a3875d1664ba206ae1b0f",
+        "browser-sync": "github:DefinitelyTyped/DefinitelyTyped/browser-sync/browser-sync.d.ts#d9b5b35ba3a79ac778c5890531393442439df5dd",
+        "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#6697d6f7dadbf5773cb40ecda35a76027e0783b2",
+        "ng2": "github:gdi2290/typings-ng2/ng2.d.ts#32998ff5584c0eab0cd9dc7704abb1c5c450701c",
+        "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#138ad74b9e8e6c08af7633964962835add4c91e2",
+        "systemjs": "github:DefinitelyTyped/DefinitelyTyped/systemjs/systemjs.d.ts#5c3e47967affa3c4128a3875d1664ba206ae1b0f",
+        "zone.js": "github:DefinitelyTyped/DefinitelyTyped/zone.js/zone.js.d.ts#b923a5aaf013ac84c566f27ba6b5843211981c7a",
+        "chokidar": "github:DefinitelyTyped/DefinitelyTyped/chokidar/chokidar.d.ts#ae81e340a9e897167cfef3122a5a3aed04293814",
+        "micromatch": "github:DefinitelyTyped/DefinitelyTyped/micromatch/micromatch.d.ts#7cda84786520fd0673c934fde1aa722083e05f7b"
     }
 }
