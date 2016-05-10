@@ -397,7 +397,7 @@ export class SliderDirective {
 @Component({
     selector: 'color-picker',
     template: template,
-    styleUrls: styles,
+    styles: styles,
     directives: [SliderDirective, TextDirective]
 })
 export class DialogComponent implements OnInit {
