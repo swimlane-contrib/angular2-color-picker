@@ -3,6 +3,7 @@
 Angular 2 Color Picker Directive/Component with no dependencies required.
 
 *** Note ***
+
 Fork of angular2-color-picker https://github.com/Alberplz/angular-colorpicker-directive
 
 # Demo page
@@ -17,7 +18,7 @@ npm install ct-angular2-color-picker
 
 # SystemJS configuration
 
-https://github.com/bbbenja/angular2-color-picker/examples/systemjs.config.json
+https://github.com/bbbenja/angular2-color-picker/blob/master/examples/systemjs.config.js
 ```bash
 // map tells the System loader where to look for things
     var map = {
