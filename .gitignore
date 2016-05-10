@@ -14,5 +14,6 @@ src/**/*.css.map
 *.css.map
 .idea/
 examples/node_modules/*
-lib
+examples/typings/*
 !examples/systemjs.config.js
+lib
