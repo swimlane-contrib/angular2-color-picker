@@ -1,7 +1,7 @@
 {
   "name": "ct-angular2-color-picker",
   "author": "Benjamin Cousin <b.cousin@code-troopers.com",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "scripts": {
     "watch": "tsc -p src -w",
     "build": "rm -rf lib && tsc -p src",
