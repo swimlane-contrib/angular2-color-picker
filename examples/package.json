@@ -1,6 +1,5 @@
 {
-    "name": "angular2-color-picker",
-    "version": "1.0.1",
+    "name": "angular2-color-picker-examples",
     "scripts": {
         "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
         "lite": "lite-server",
@@ -10,7 +9,6 @@
         "typings": "typings",
         "build": "rm -rf lib && tsc -p src"
     },
-    "license": "MIT",
     "dependencies": {
         "@angular/platform-browser-dynamic": "2.0.0-rc.1",
         "@angular/platform-browser": "2.0.0-rc.1",
