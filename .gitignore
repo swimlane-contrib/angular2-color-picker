@@ -6,8 +6,13 @@ app/color-picker/.sass-cache/*
 app/.sass-cache/
 create-dist.bat
 .sass-cache/*
+src/**/*.js
+src/**/*.js.map
+src/**/*.css.map
 *.js
 *.js.map
 *.css.map
 .idea/
 examples/node_modules/*
+lib
+!examples/systemjs.config.js
