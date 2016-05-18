@@ -13,7 +13,7 @@ import {ColorPickerService} from './color-picker.service';
 import {Rgba, Hsla, Hsva, SliderPosition, SliderDimension} from './classes';
 
 const styles:string[] = [`
-    .color-picker, .color-picker * {
+.color-picker, .color-picker * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -23,12 +23,12 @@ const styles:string[] = [`
 .color-picker {
   width: 232px;
   height: 290px;
-  border: #777 solid 1px;
+  border: #1F1F1F solid 1px;
   left: 30px;
   top: 250px;
   position: absolute;
   z-index: 1000;
-  background-color: #fff;
+  background-color: #272C31;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -42,6 +42,8 @@ const styles:string[] = [`
     text-align: center;
     font-size: 13px;
     height: 26px;
+    background: #2F363D;
+    color: #fff;
     -moz-appearance: textfield; }
     .color-picker input:invalid {
       box-shadow: none; }
@@ -150,7 +152,7 @@ const styles:string[] = [`
     position: absolute;
     top: 226px;
     left: 206px;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAgCAYAAAAffCjxAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAACewAAAnsB01CO3AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIASURBVEiJ7ZY9axRRFIafsxMStrLQJpAgpBFhi+C9w1YSo00I6RZ/g9vZpBf/QOr4GyRgkSKNSrAadsZqQGwCkuAWyRZJsySwvhZ7N/vhzrgbLH3Ld8597jlzz50zJokyxXH8DqDVar0qi6v8BbItqSGpEcfxdlmsFWXkvX8AfAVWg3UKPEnT9GKujMzsAFgZsVaCN1VTQd77XUnrgE1kv+6935268WRpzrnHZvYRWC7YvC3pRZZl3wozqtVqiyH9IgjAspkd1Gq1xUJQtVrdB9ZKIAOthdg/Qc65LUk7wNIMoCVJO865rYFhkqjX6/d7vV4GPJwBMqofURS5JEk6FYBer/eeYb/Mo9WwFnPOvQbeAvfuAAK4BN4sAJtAG/gJIElmNuiJyba3EGNmZiPeZuEVmVell/Y/6N+CzDn3AXhEOOo7Hv/3BeAz8IzQkMPnJbuPx1wC+yYJ7/0nYIP5S/0FHKdp+rwCEEXRS/rf5Hl1Gtb2M0iSpCOpCZzPATmX1EySpHMLAsiy7MjMDoHrGSDXZnaYZdnRwBh7J91utwmczAA6CbG3GgPleX4jqUH/a1CktqRGnuc3hSCAMB32gKspkCtgb3KCQMmkjeP4WNJThrNNZval1WptTIsv7JtQ4tmIdRa8qSoEpWl6YWZNoAN0zKxZNPehpLSBZv2t+Q0CJ9lLnARQLAAAAABJRU5ErkJggg==");
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAgCAYAAAAffCjxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuOWwzfk4AAAE5SURBVEhLrZY9csIwEIWpuEC4BDfJ5DI0XIaGM3ACZmg9thuQ0zIUFEwK6NKAeI/xmrWy/ERS8Rnp7XuLB2HJA+/9U8qynBGrpjFFAQ2+qqr6IRxbHsEUCYIjNNjh05N2PLK8xBQJQitwkUbteGV5iSni26fgpJrIXZ1YszJ/hLquxwjtwyaKPT1hrjdxzg1hbIKgRUOvzvYawTAHvyrwCHrmOtsNcLufKB6U+RUHZnqNiqL4QGEbGN9hy2zXCMISnJXhXZhZ3hphOSeYHFXxvxzZg40WmHwDrlaDuQOblnWA6E78zGK+6H7sVEwxBlOMwRRjMMUYTDGGfMuPS54/JG8Lk/RHhJdsDy3Jso0IKKZvbCTbVku4scOYtvkLWM7040hAMP2AJAjlObIJgukvEQIazIhVu+MHV2lhBFb9PlvOAAAAAElFTkSuQmCC");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 8px 16px;
@@ -169,13 +171,13 @@ const styles:string[] = [`
       float: left;
       width: 40px;
       margin-left: 7px;
-      border: #a9a9a9 solid 1px;
+      border: #545454 solid 1px;
       padding: 1px; }
     .color-picker .hsla-text div, .color-picker .rgba-text div {
       float: left;
       width: 40px;
       text-align: center;
-      color: #555;
+      color: #fff;
       margin-left: 7px;
       margin-top: 4px; }
     .color-picker .hsla-text div:nth-child(5), .color-picker .rgba-text div:nth-child(5) {
@@ -188,7 +190,7 @@ const styles:string[] = [`
     .color-picker .hex-text input {
       float: left;
       width: 160px;
-      border: #a9a9a9 solid 1px;
+      border: #545454 solid 1px;
       padding: 1px; }
     .color-picker .hex-text div {
       text-align: center;
@@ -200,7 +202,7 @@ const styles:string[] = [`
 `];
 const template:string = `
 <div class="color-picker" *ngIf="show" [style.height.px]="cpHeight" [style.top.px]="top" [style.left.px]="left" [style.position]="position">
-    <div class="arrow arrow-{{cpPosition}}" [style.top.px]="arrowTop"></div>    
+    <div class="arrow arrow-{{cpPosition}}" [style.top.px]="arrowTop"></div>
 
     <div [slider] [style.background-color]="hueSliderColor" [rgX]="1" [rgY]="1" (newValue)="setSaturationAndBrightness($event)" class="saturation-lightness">
         <div [style.left.px]="slider.s" [style.top.px]="slider.v" class="cursor"></div>
@@ -239,7 +241,7 @@ const template:string = `
     </div>
 
     <div (click)="formatPolicy()" class="type-policy"></div>
-    
+
     <button *ngIf="cpCancelButton" type="button" class="{{cpCancelButtonClass}}" (click)="cancelColor()">{{cpCancelButtonText}}</button>
 
 </div>
