@@ -9,11 +9,9 @@ create-dist.bat
 src/**/*.js
 src/**/*.js.map
 src/**/*.css.map
-*.js
 *.js.map
 *.css.map
 .idea/
 examples/node_modules/*
 examples/typings/*
 !examples/systemjs.config.js
-lib
