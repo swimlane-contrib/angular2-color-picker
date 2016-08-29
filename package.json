@@ -9,8 +9,6 @@
   "scripts": {
     "watch": "tsc -p src -w",
     "build": "rm -rf lib && tsc -p src",
-    "postinstall": "typings install",
-    "typings":"typings",
     "tsc": "tsc"
   },
   "license": "MIT",
